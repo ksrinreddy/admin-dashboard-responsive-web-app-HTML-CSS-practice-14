@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="./assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="./assets/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="./assets/fontawesome/css/solid.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Admin Dashboard</title>
+</head>
+
+<body>
+    <div class="showcase">
+        <aside class="nav-bar">
+            <div class="logo">
+                <i class="fa-brands fa-apple brand-icon"></i>
+                <a href="#" class="brand-name">Brand Name</a>
+            </div>
+            <ul class="nav-menu">
+                <li>
+                    <i class="fa-solid fa-house-user nav-icon"></i>
+                    <a href="#" class="nav-link">Dashboard</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-users nav-icon"></i>
+                    <a href="#" class="nav-link">Customers</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-message  nav-icon"></i>
+                    <a href="#" class="nav-link">Messages</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-circle-question nav-icon"></i>
+                    <a href="#" class="nav-link">Help</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-gear nav-icon"></i>
+                    <a href="#" class="nav-link">Settings</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-lock nav-icon"></i>
+                    <a href="#" class="nav-link">Password</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-right-from-bracket nav-icon"></i>
+                    <a href="#" class="nav-link">Sign Out</a>
+                </li>
+            </ul>
+        </aside>
+        <main>
+            <header class="header" id="header">
+                <div class="header-container">
+                    <div class="nav-toggle">
+                        <i class="fa-solid fa-bars menu-bar"></i>
+                    </div>
+                    <div class="search-bar">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                        <form class="search-input-form">
+                            <input type="text" placeholder="Search here" class="search-input-box">
+                        </form>
+                    </div>
+                    <div class="profile-pic-container">
+                        <img src="./assets/images/profile-img.jpg" alt="" class="profile-img">
+                    </div>
+                </div>
+            </header>
+            <section class="summary" id="summary">
+                <div class="summary-container">
+                    <div class="summry-category">
+                        <div class="category-info">
+                            <p class="category-count">1,042</p>
+                            <p class="category-name">Daily Views</p>
+                        </div>
+                        <div class="category-pic">
+                            <i class="fa-solid fa-eye category-icon"></i>
+                        </div>
+                    </div>
+                    <div class="summry-category">
+                        <div class="category-info">
+                            <p class="category-count">80</p>
+                            <p class="category-name">Sales</p>
+                        </div>
+                        <div class="category-pic">
+                            <i class="fa-solid fa-cart-shopping category-icon"></i>
+                        </div>
+                    </div>
+                    <div class="summry-category">
+                        <div class="category-info">
+                            <p class="category-count">208</p>
+                            <p class="category-name">Comments</p>
+                        </div>
+                        <div class="category-pic">
+                            <i class="fa-solid fa-comments category-icon"></i>
+                        </div>
+                    </div>
+                    <div class="summry-category">
+                        <div class="category-info">
+                            <p class="category-count">$6,042</p>
+                            <p class="category-name">Earnings</p>
+                        </div>
+                        <div class="category-pic">
+                            <i class="fa-solid fa-dollar-sign category-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="recent" id="recent">
+                <div class="recent-container">
+                    <div class="recent-ordres">
+                        <div class="recent-orders-header">
+                            <p class="recent-orders-title">Recent Orders</p>
+                            <a href="#" class="recent-orders-more">View All</a>
+                        </div>
+                        <table class="recent-orders-info-table">
+                            <tr>
+                                <th class="left">Name</th>
+                                <th class="center">Price</th>
+                                <th class="center">Payment</th>
+                                <th class="right">Status</th>
+                            </tr>
+                            <tr>
+                                <td class="left">Star Refrigirator</td>
+                                <td class="center">$1200</td>
+                                <td class="center">Paid</td>
+                                <td class="right"><span class="delivered"> Delivered</span></td>
+
+                            </tr>
+                            <tr>
+                                <td class="left">Window Coolers</td>
+                                <td class="center">$110</td>
+                                <td class="center">Due</td>
+                                <td class="right"><span class="pending">Pending</span></td>
+                            </tr>
+                            <tr>
+                                <td class="left">Speakers</td>
+                                <td class="center">$620</td>
+                                <td class="center">Paid</td>
+                                <td class="right"><span class="return">Return</span></td>
+                            </tr>
+                            <tr>
+                                <td class="left">Hp Laptop</td>
+                                <td class="center">$110</td>
+                                <td class="center">Due</td>
+                                <td class="right"><span class="in-progress">In Progress</span></td>
+                            </tr>
+                            <tr>
+                                <td class="left">Apple Watch</td>
+                                <td class="center">$1200</td>
+                                <td class="center">Paid</td>
+                                <td class="right"><span class="delivered"> Delivered</span></td>
+                            </tr>
+                            <tr>
+                                <td class="left">Wall Fan</td>
+                                <td class="center">$110</td>
+                                <td class="center">Paid</td>
+                                <td class="right"><span class="pending">Pending</span></td>
+                            </tr>
+                            <tr>
+                                <td class="left">Adidas Shoes</td>
+                                <td class="center">$620</td>
+                                <td class="center">Paid</td>
+                                <td class="right"><span class="return">Return</span></td>
+                            </tr>
+                            <tr>
+                                <td class="left">Denim Shirts</td>
+                                <td class="center">$110</td>
+                                <td class="center">Due</td>
+                                <td class="right"><span class="in-progress">In Progress</span></td>
+                            </tr>
+                            <tr>
+                                <td class="left">Casual Shoes</td>
+                                <td class="center">$575</td>
+                                <td class="center">Paid</td>
+                                <td class="right"><span class="pending">Pending</span></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="recent-customers">
+                        <p class="recent-customers-title">Recent Customers</p>
+                        <ul class="recent-customers-list">
+                            <li class="customer-info">
+                                <img src="./assets/images/profile-img.jpg" alt="" class="customer-photo">
+                                <div class="customer-details">
+                                    <p class="customer-name">David</p>
+                                    <p class="customer-country">Italy</p>
+                                </div>
+                            </li>
+                            <li class="customer-info">
+                                <img src="./assets/images/profile-img.jpg" alt="" class="customer-photo">
+                                <div class="customer-details">
+                                    <p class="customer-name">Muhammad</p>
+                                    <p class="customer-country">Indonesia</p>
+                                </div>
+                            </li>
+                            <li class="customer-info">
+                                <img src="./assets/images/profile-img.jpg" alt="" class="customer-photo">
+                                <div class="customer-details">
+                                    <p class="customer-name">Amelia</p>
+                                    <p class="customer-country">France</p>
+                                </div>
+                            </li>
+                            <li class="customer-info">
+                                <img src="./assets/images/profile-img.jpg" alt="" class="customer-photo">
+                                <div class="customer-details">
+                                    <p class="customer-name">Olivia</p>
+                                    <p class="customer-country">USA</p>
+                                </div>
+                            </li>
+                            <li class="customer-info">
+                                <img src="./assets/images/profile-img.jpg" alt="" class="customer-photo">
+                                <div class="customer-details">
+                                    <p class="customer-name">Amit</p>
+                                    <p class="customer-country">India</p>
+                                </div>
+                            </li>
+                            <li class="customer-info">
+                                <img src="./assets/images/profile-img.jpg" alt="" class="customer-photo">
+                                <div class="customer-details">
+                                    <p class="customer-name">Ashraf</p>
+                                    <p class="customer-country">Malasia</p>
+                                </div>
+                            </li>
+                            <li class="customer-info">
+                                <img src="./assets/images/profile-img.jpg" alt="" class="customer-photo">
+                                <div class="customer-details">
+                                    <p class="customer-name">Diana</p>
+                                    <p class="customer-country">Taiwan</p>
+                                </div>
+                            </li>
+                            <li class="customer-info">
+                                <img src="./assets/images/profile-img.jpg" alt="" class="customer-photo">
+                                <div class="customer-details">
+                                    <p class="customer-name">Arjun</p>
+                                    <p class="customer-country">India</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
